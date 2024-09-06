@@ -1,0 +1,59 @@
+.contact-us-page {
+  padding: 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.contact-form,
+.contact-info {
+  width: 45%;
+}
+
+.contact-form h2,
+.store-locator h2,
+.faq-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact-info div {
+  margin-bottom: 20px;
+}
+
+.store-locator {
+  margin-bottom: 40px;
+}
+
+.regions select {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.faq-section {
+  margin-top: 40px;
+}
+
+.faq details {
+  margin-bottom: 15px;
+}

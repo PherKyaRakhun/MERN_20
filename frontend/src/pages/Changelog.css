@@ -1,0 +1,24 @@
+.changelog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f4f8;
+}
+
+.changelog-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.version-text {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.version {
+  color: #3f72af;
+  font-weight: bold;
+}

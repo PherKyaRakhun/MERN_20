@@ -1,0 +1,38 @@
+.licenses {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 20px;
+}
+
+.licenses h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.licenses p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.license-section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.license-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.license-card p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.license-card a {
+  color: #3b82f6;
+  text-decoration: none;
+}

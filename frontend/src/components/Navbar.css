@@ -1,0 +1,183 @@
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+} */
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /*Aligns logo, links, and actions */
+  /* background-color: #f8f9fa; */
+  padding: 10px 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* border-bottom: 1px solid #c48282; */
+}
+
+/* Container-Hero CSS */
+#showcase {
+  padding: 40px 0;
+  /* background-color: #f5f8fb; Light background color for contrast */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 400px;
+  margin: 0 7%;
+
+  background-image: linear-gradient(to right, #062261, #3f5faa);
+  border-radius: 40px;
+  padding: 40px;
+}
+
+.container .content {
+  max-width: 50%;
+}
+
+.container h1 {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container p {
+  color: #e0e0e0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.container #learnmore {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.container #learnmore:hover {
+  background-color: transparent; /* Background color on hover */
+  color: #007bff; /* Text color on hover */
+  border: 2px solid #007bff; /* Adding border on hover */
+  padding: 8px 18px; /* Adjusting padding to accommodate border */
+}
+.container #shopnow:hover {
+  background-color: transparent; /* Background color on hover */
+  color: #007bff; /* Text color on hover */
+  border: 2px solid #007bff; /* Adding border on hover */
+  padding: 8px 18px; /* Adjusting padding to accommodate border */
+}
+.container button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.container img {
+  /* max-height: 30%; */
+  max-width: 30%;
+  border-radius: 0 40px 40px 0; /* Rounding only the right side */
+  /* object-fit: contain; Ensures the image covers the container without distortion */
+}
+
+/* Logo section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 40px; /* Adjusted for a better look */
+}
+
+/* Navigation links */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  /* margin-right: 30%; */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px; /* Space between the links */
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.navbar-links a:hover {
+  color: #007bff;
+}
+
+/* Actions section */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+.shop-now-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shop-now-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar-links {
+    display: none; /* Hide navigation links on smaller screens */
+  }
+
+  .navbar-actions {
+    margin-top: 10px;
+  }
+
+  .navbar-menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .navbar-menu-toggle.active + .navbar-links {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    width: 100%;
+  }
+
+  .navbar-links a {
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .shop-now-btn {
+    margin-left: 0;
+  }
+}

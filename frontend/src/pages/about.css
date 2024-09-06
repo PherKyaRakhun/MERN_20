@@ -1,0 +1,53 @@
+.about-us-page {
+  padding: 20px;
+}
+
+.about-us {
+  margin-bottom: 40px;
+}
+
+.about-story {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.about-story img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.values-section,
+.features {
+  margin-bottom: 40px;
+}
+
+.values,
+.feature-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.values div,
+.feature-cards div {
+  width: 22%;
+  background-color: white; /* Ensure the background is visible */
+  padding: 20px;
+  border-radius: 8px; /* To give rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
+  transition: box-shadow 0.3s ease; /* Smooth transition when hovered */
+}
+
+.values div:hover,
+.feature-cards div:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
